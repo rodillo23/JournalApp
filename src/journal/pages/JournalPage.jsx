@@ -1,11 +1,13 @@
-import { MailLockOutlined } from "@mui/icons-material"
 import { Typography } from "@mui/material"
+import { JournalLayout } from "../layout/JournalLayout"
 
 export const JournalPage = () => {
   return (
-    <>
-      <Typography variant='h1'>JournalPage</Typography>
-      <MailLockOutlined/>
-    </>
+    <JournalLayout>
+      <Typography>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo itaque mollitia tenetur porro hic omnis neque voluptas enim doloribus maxime, autem beatae unde. Deleniti nisi perspiciatis non doloremque in!</Typography>
+      {/* NothingSelected */}
+      {/* NoteView */}
+
+    </JournalLayout>
   )
 }
