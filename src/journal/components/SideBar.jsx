@@ -24,10 +24,12 @@ export const SideBar = ({drawerWidth}) => {
                     variant="h6" 
                     noWrap
                     component='div'
+                    align="center"
                 >
                     Rodolfo Figueroa
                 </Typography>
             </Toolbar>
+
             <Divider/>
 
             <List>
